@@ -1,0 +1,33 @@
+body{
+  font-family: 'Lucida Sans', sans-serif;
+
+  header{
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  nav.container{
+    display: flex;
+
+    @media screen and (max-width: 600px){
+      flex-direction: column;
+    }
+  
+    .nav-item{
+      background-color: lightblue;
+      padding: 0px 30px;
+
+      &:hover{
+        background-color: blueviolet;
+      }
+    }
+    
+  }
+}
+
+/*@media screen and (max-width: 600px){
+  nav.container{
+    flex-direction: column;
+  }
+}*/

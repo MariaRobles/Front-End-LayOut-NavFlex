@@ -1,0 +1,30 @@
+body {
+  font-family: Lucida Sans, sans-serif;
+}
+
+body header {
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: 900;
+}
+
+body nav.container {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  body nav.container {
+    flex-direction: column;
+  }
+}
+
+body nav.container .nav-item {
+  background-color: #add8e6;
+  padding: 0 30px;
+}
+
+body nav.container .nav-item:hover {
+  background-color: #8a2be2;
+}
+
+/*# sourceMappingURL=index.b2d9cf43.css.map */
